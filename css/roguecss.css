@@ -1,0 +1,124 @@
+/***BASE STYLES***/
+    body{
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+}
+/***GRID***/
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .top{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .bottom{
+        width: 1200px;
+        margin: 35px 75px;
+        border-top: 1px solid #dedbdc;
+        border-bottom: 1px solid #dedbdc;
+        overflow: hidden;
+    }
+/***HEADER***/
+    header{
+        height: 113px;
+        margin: 0 auto;
+    }
+    header h1{
+        padding: 55px 0px;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+        margin: 0;
+    }
+    header h1 span{
+        color: #77a466;
+    }
+    header nav{
+        padding: 52px 0px 49px 0px;
+        float: right;
+    }
+    header nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    header nav ul li{
+        text-transform: uppercase;
+        display: inline;
+        font-weight: bold;
+        padding: 0px 10px;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color: #77a466;
+    } 
+/***IMG***/
+    img{
+        margin: 0 auto;
+        width: 1200px;
+        border-top: 3px solid #77a466;
+        border-bottom: 3px solid #77a466;
+    }
+/***TOP***/
+    .intro{
+        margin: 0 auto;
+    }
+    h2 {
+        text-transform: uppercase;
+        color: #77a466;
+        font-weight: bold;
+        padding: 30px 0px;
+    }
+    p{
+        line-height: 24px;
+    }
+
+/***BOTTOM***/
+
+    .specials {
+        width: 350px;
+        padding: 35px 0px;
+        margin: 0 auto;
+        float: left;
+    }
+    .reviews {
+        width: 350px;
+        padding: 35px 25px;
+        margin: 0 auto;
+        float: left;
+        border-left: #dedbdc solid 1px;
+        border-right: #dedbdc solid 1px;
+    }
+    .contact {
+        width: 350px;
+        padding: 35px 25px;
+        margin: 0 auto;
+        float: left;
+    }
+    h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 0px 0px 30px 0px;
+    }
+    ul li {
+        color: #77a466;
+        line-height: 35px;
+    }
+/***FOOTER***/
+    .footer {
+        text-align: center;
+        margin: 35px;
+    }
+    h4 {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #000000;
+    }
+    h4 span{
+        color: #77a466;
+        text-transform: lowercase;
+        font-family: 'Seaweed Script', sans-serif;
+        letter-spacing: 2px;
+    }
